@@ -1,10 +1,6 @@
 # HTRCMARC2RDF
-## work in progress  
-
-Transform documents from MARCXML to MODS RDF.  
-
+Transform documents from MARCXML to MODS RDF.  (work in progress)
 ### HTRC's current experimental transformation process:  
-
 <ol>
 <li>
 MARCXML
@@ -32,7 +28,6 @@ to MODSRDF
 	<li>https://github.com/wcsa/HTRCMARC2RDF/blob/master/HTRC-modsrdf.xsl</li>
 	</ul>
 </li>
-
 </ol>
 
 

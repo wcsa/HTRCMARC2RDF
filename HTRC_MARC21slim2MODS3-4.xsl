@@ -6,7 +6,8 @@
 	<!-- Maintenance note: For each revision, change the content of <recordInfo><recordOrigin> to reflect the new revision number.
 	MARC21slim2MODS3-4 (Revision HT1.25) 20141010
 
-Revision HT1.26  - Make electronicLocator a proper URI using the HT Handle.
+Revision HT1.27  - Made include statement relative. cm 2014-11-03
+Revision HT1.26  - Make electronicLocator a proper URI using the HT Handle. cm 2014-11-02
 Revision HT1.25  - Revised createLocationFrom974 template to avoid repeading holdingSimple element. cf 2014/10/10
 Revision HT1.24  - Added handling of additional values of controlField008-28 cf 2013/11/14
 Revision HT1.23  - Corrected handing of 008-33 for 0 and m  cf 2013/11/14 

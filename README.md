@@ -1,12 +1,13 @@
 # HTRCMARC2RDF
-Transform documents from MARCXML to MODS RDF.  (work in progress)
+Transform documents from MARCXML to MODS RDF.
 ### HTRC's current experimental transformation process:  
 <ol>
 <li>
 MARCXML
 	<ul>
 		<li>Start with a single MARCXML record extracted from HathiTrust's Bib API http://www.hathitrust.org/bib_api.</li>
-		<li>This is currently a partly manual process, but automation is planned, and the script(s) will be posted in https://github.com/wcsa/HTRCMARC2RDF as they are developed.</li>
+		<li>From within the University of Illinois at Urbana-Champaign network, this kind of record can be obtained from an internal service HtBibWrapper.  Example: http://192.17.22.204:8080/HtBibWrapper/vol/mdp.39015062338564</li>
+	 	<li>The code for the HtBibWrapper service can be found at https://github.com/mfall3/HtBibWrapper<li>
 		<li>The root element should be &lt;record xmlns="http://www.loc.gov/MARC21/slim"></li>
 	</ul>
 </li>

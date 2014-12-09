@@ -4,8 +4,7 @@ stylesheet to convert a MODS XML (version 3.x) record to RDF
 Ray Denenberg, Library of Congess
 Modified by Colleen Fallaw, HathiTrust Research Center
 
-LAST MODIFIED: OCTOBER 16, 2014 (minor feature added)
-
+HT-1.01 11-21-2014      CM      Removed rdf:about on author names.
 HT-1.00	10-16-2014	CF	When a marccountry code is supplied in the mods xml record, use a uri rather than plain text code.
 	06-07-2013	RD	When links are supplied in the mods xml record, either via XLink or authorityURI,  these should be included in the resultant RDF.  
 				The stylesheet now supports this for names, when  XLink is supplied.  (Will continue to enhance this for remaining cases.) 
@@ -847,9 +846,9 @@ rdf name element: personalName, corporateName, etc.
 		<xsl:variable name="NameType" select="concat( upper-case( substring( $nameType , 1, 1) ) , substring( $nameType , 2 ) )"/>
 		<!-- -->
 		<xsl:element name="{concat($NameType, 'Name')}" namespace="http://www.loc.gov/mads/rdf/v1#">
-			<xsl:if test="$about='yes'">
+			<!--<xsl:if test="$about='yes'">
 				<xsl:attribute name="rdf:about" select="$nameId"/>
-			</xsl:if>
+			</xsl:if>-->
 			<!--  
 -->
 			<xsl:element name="label" namespace="http://www.w3.org/2000/01/rdf-schema#">

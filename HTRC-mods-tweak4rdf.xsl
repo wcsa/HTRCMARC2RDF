@@ -20,7 +20,7 @@ HT-0.10	10-16-2014	CF	initial version
 		</xsl:copy>
 	</xsl:template>
 	<xsl:template match="*:recordInfo">
-		<identifier type="modsIdentifier">http://catalog.hathitrust.org/Record/<xsl:value-of
+		<identifier type="modsIdentifier">http://catalog.htrc.illinois.edu/bibent/<xsl:value-of
 				select="//*:recordInfo/*:recordIdentifier[@source='MiAaHDL']"/></identifier>
 	</xsl:template>
 

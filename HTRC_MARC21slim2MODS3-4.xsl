@@ -1,11 +1,13 @@
 <xsl:stylesheet xmlns="http://www.loc.gov/mods/v3" xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" exclude-result-prefixes="xlink marc" version="1.0">
-	<xsl:include href="http://www.loc.gov/standards/marcxml/xslt/MARC21slimUtils.xsl"/>
+	<xsl:include href="MARC21slimUtils.xsl"/>
 	<xsl:output encoding="UTF-8" indent="yes" method="xml"/>
 	<xsl:strip-space elements="*"/>
 
 	<!-- Maintenance note: For each revision, change the content of <recordInfo><recordOrigin> to reflect the new revision number.
 	MARC21slim2MODS3-4 (Revision HT1.25) 20141010
 
+Revision HT1.27  - Made include statement relative. cm 2014-11-03
+Revision HT1.26  - Make electronicLocator a proper URI using the HT Handle. cm 2014-11-02
 Revision HT1.25  - Revised createLocationFrom974 template to avoid repeading holdingSimple element. cf 2014/10/10
 Revision HT1.24  - Added handling of additional values of controlField008-28 cf 2013/11/14
 Revision HT1.23  - Corrected handing of 008-33 for 0 and m  cf 2013/11/14 
@@ -5295,6 +5297,7 @@ Revision 1.02 - Added Log Comment  2003/03/24 19:37:42  ckeith
 					<copyInformation>
 						<xsl:if test="marc:subfield[@code='u']">
 							<electronicLocator>
+								<xsl:text>http://hdl.handle.net/2027/</xsl:text>
 								<xsl:call-template name="subfieldSelect">
 									<xsl:with-param name="codes">u</xsl:with-param>
 								</xsl:call-template>

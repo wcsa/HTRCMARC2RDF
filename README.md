@@ -6,9 +6,11 @@ Transform documents from MARCXML to MODS RDF.
 MARCXML
 	<ul>
 		<li>Start with a single MARCXML record extracted from HathiTrust's Bib API http://www.hathitrust.org/bib_api.</li>
-		<li>From within the University of Illinois at Urbana-Champaign network, this kind of record can be obtained from an internal service HtBibWrapper.  Example: http://192.17.22.204:8080/HtBibWrapper/vol/mdp.39015062338564</li>
-	 	<li>The code for the HtBibWrapper service can be found at https://github.com/mfall3/HtBibWrapper<li>
 		<li>The root element should be &lt;record xmlns="http://www.loc.gov/MARC21/slim"></li>
+
+		<li>From within the University of Illinois at Urbana-Champaign network, this kind of record can be obtained from an internal service HtBibWrapper. Example: http://192.17.22.204:8080/HtBibWrapper/vol/mdp.39015062338564</li>
+	 	<li>The code for the HtBibWrapper service can be found at https://github.com/mfall3/HtBibWrapper<li>
+
 	</ul>
 </li>
 <li>

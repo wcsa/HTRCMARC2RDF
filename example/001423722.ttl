@@ -1,0 +1,60 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix fo: <http://www.w3.org/1999/XSL/Format> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions> .
+@prefix mods: <http://www.loc.gov/mods/v3> .
+@prefix modsrdf: <http://www.loc.gov/mods/rdf/v1#> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix identifier: <http://id.loc.gov/vocabulary/identifier/> .
+@prefix relator: <http://id.loc.gov/vocabulary/relator/> .
+@prefix note: <http://id.loc.gov/vocabulary/note/> .
+@prefix abstract: <http://id.loc.gov/vocabulary/abstract/> .
+@prefix access: <http://id.loc.gov/vocabulary/access/> .
+@prefix class: <http://id.loc.gov/vocabulary/class/> .
+@prefix ri: <http://id.loc.gov/ontologies/RecordInfo#> .
+@prefix xlink: <http://www.w3.org/1999/xlink> .
+
+<http://catalog.htrc.illinois.edu/bibent/001423722>
+    identifier:lccn "07017953" ;
+    modsrdf:namePrincipal [
+        madsrdf:elementList ([
+                madsrdf:elementValue "Melville, Herman 1819-1891" ;
+                a madsrdf:FullNameElement
+            ]
+            [
+                madsrdf:elementValue "1819-1891" ;
+                a madsrdf:DateNameElement
+            ]
+        ) ;
+        a madsrdf:PersonalName ;
+        rdfs:label "Melville, Herman"
+    ] ;
+    modsrdf:titlePrincipal [
+        madsrdf:elementList ([
+                madsrdf:elementValue "Moby-Dick, or, the Whale" ;
+                a madsrdf:mainTitleElement
+            ]
+        ) ;
+        madsrdf:hasVariant [
+            madsrdf:elementList ([
+                    madsrdf:elementValue "Moby-Dick" ;
+                    a madsrdf:mainTitleElement
+                ]
+            ) ;
+            madsrdf:variantLabel "Moby-Dick" ;
+            a madsrdf:Title
+        ], [
+            madsrdf:elementList ([
+                    madsrdf:elementValue "Whale" ;
+                    a madsrdf:mainTitleElement
+                ]
+            ) ;
+            madsrdf:variantLabel "Whale" ;
+            a madsrdf:Title
+        ] ;
+        a madsrdf:Title ;
+        rdfs:label "Moby-Dick, or, the Whale"
+    ] ;
+    a <http://id.loc.gov/vocabulary/resourceType#Text>, modsrdf:ModsResource .
+

@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:fo="http://www.w3.org/1999/XSL/Format"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:fn="http://www.w3.org/2005/xpath-functions"
+         xmlns:mods="http://www.loc.gov/mods/v3"
+         xmlns:modsrdf="http://www.loc.gov/mods/rdf/v1#"
+         xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:identifier="http://id.loc.gov/vocabulary/identifier/"
+         xmlns:relator="http://id.loc.gov/vocabulary/relator/"
+         xmlns:note="http://id.loc.gov/vocabulary/note/"
+         xmlns:abstract="http://id.loc.gov/vocabulary/abstract/"
+         xmlns:access="http://id.loc.gov/vocabulary/access/"
+         xmlns:class="http://id.loc.gov/vocabulary/class/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ri="http://id.loc.gov/ontologies/RecordInfo#"
+         xmlns:xlink="http://www.w3.org/1999/xlink"><!--
+
+This RDF description created by the stylesheet at http://www.loc.gov/standards/mods/modsrdf/xsl-files/modsrdf.xsl
+
+--><!--
+*******************************************************
+   Top level element
+*******************************************************
+-->
+   <modsrdf:ModsResource rdf:about="http://catalog.htrc.illinois.edu/bibent/001423722">
+
+<!--
+	
+*******************************************************
+   rdf:type  statement for each resource type
+*******************************************************
+-->
+      <rdf:type rdf:resource="http://id.loc.gov/vocabulary/resourceType#Text"/>
+      <!--
+	*******************************************************
+  names
+*******************************************************
+-->      <!--
+			** Name **			
+			-->
+      <namePrincipal xmlns="http://www.loc.gov/mods/rdf/v1#">
+         <PersonalName xmlns="http://www.loc.gov/mads/rdf/v1#">
+            <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Melville, Herman</label>
+            <elementList rdf:parseType="Collection">
+               <FullNameElement>
+                  <elementValue>Melville, Herman 1819-1891</elementValue>
+               </FullNameElement>
+               <DateNameElement>
+                  <elementValue>1819-1891</elementValue>
+               </DateNameElement>
+            </elementList>
+         </PersonalName>
+      </namePrincipal>
+      <!--
+	
+*******************************************************
+  titles
+*******************************************************
+-->
+      <!--
+		
+*******  Principal Title
+-->
+      <titlePrincipal xmlns="http://www.loc.gov/mods/rdf/v1#">
+         <Title xmlns="http://www.loc.gov/mads/rdf/v1#">
+            <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Moby-Dick, or, the Whale</label>
+            <elementList rdf:parseType="Collection">
+
+               <mainTitleElement>
+                  <elementValue>Moby-Dick, or, the Whale</elementValue>
+               </mainTitleElement>
+            </elementList>
+            <hasVariant>
+               <Title>
+                  <variantLabel>Whale</variantLabel>
+                  <elementList rdf:parseType="Collection">
+
+                     <mainTitleElement>
+                        <elementValue>Whale</elementValue>
+                     </mainTitleElement>
+                  </elementList>
+               </Title>
+            </hasVariant>
+
+            <hasVariant>
+               <Title>
+                  <variantLabel>Moby-Dick</variantLabel>
+                  <elementList rdf:parseType="Collection">
+
+                     <mainTitleElement>
+                        <elementValue>Moby-Dick</elementValue>
+                     </mainTitleElement>
+                  </elementList>
+               </Title>
+            </hasVariant>
+
+         </Title>
+      </titlePrincipal>
+      <!--
+
+***************************
+identifier(s)
+***************************
+-->
+      <identifier:lccn>07017953</identifier:lccn>
+
+      <modsrdf:identifierGroup>
+         <IdentifierGroup>
+            <identifierGroupType>oclc</identifierGroupType>
+            <identifierGroupValue>30847311</identifierGroupValue>
+         </IdentifierGroup>
+      </modsrdf:identifierGroup>
+      <!--
+
+***************************
+subject(s)
+***************************
+-->      <subjectComplex xmlns="http://www.loc.gov/mods/rdf/v1#">
+         <ComplexSubject xmlns="http://www.loc.gov/mads/rdf/v1#">
+            <rdfs:label>Whales. Fiction. </rdfs:label>
+            <componentList rdf:parseType="Collection">
+
+               <Topic>
+                  <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Whales</label>
+                  <elementList rdf:parseType="Collection">
+                     <TopicElement>
+                        <elementValue>Whales</elementValue>
+                     </TopicElement>
+                  </elementList>
+
+               </Topic>
+               <Genre>
+                  <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Fiction</label>
+                  <elementList rdf:parseType="Collection">
+                     <GenreElement>
+                        <elementValue>Fiction</elementValue>
+                     </GenreElement>
+                  </elementList>
+
+               </Genre>
+            </componentList>
+         </ComplexSubject>
+      </subjectComplex>
+      <subjectComplex xmlns="http://www.loc.gov/mods/rdf/v1#">
+         <ComplexSubject xmlns="http://www.loc.gov/mads/rdf/v1#">
+            <rdfs:label>Whaling. Fiction. </rdfs:label>
+            <componentList rdf:parseType="Collection">
+
+               <Topic>
+                  <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Whaling</label>
+                  <elementList rdf:parseType="Collection">
+                     <TopicElement>
+                        <elementValue>Whaling</elementValue>
+                     </TopicElement>
+                  </elementList>
+
+               </Topic>
+               <Genre>
+                  <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Fiction</label>
+                  <elementList rdf:parseType="Collection">
+                     <GenreElement>
+                        <elementValue>Fiction</elementValue>
+                     </GenreElement>
+                  </elementList>
+
+               </Genre>
+            </componentList>
+         </ComplexSubject>
+      </subjectComplex>
+      <subjectComplex xmlns="http://www.loc.gov/mods/rdf/v1#">
+         <ComplexSubject xmlns="http://www.loc.gov/mads/rdf/v1#">
+            <rdfs:label>Ship captains. Fiction. </rdfs:label>
+            <componentList rdf:parseType="Collection">
+
+               <Topic>
+                  <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Ship captains</label>
+                  <elementList rdf:parseType="Collection">
+                     <TopicElement>
+                        <elementValue>Ship captains</elementValue>
+                     </TopicElement>
+                  </elementList>
+
+               </Topic>
+               <Genre>
+                  <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Fiction</label>
+                  <elementList rdf:parseType="Collection">
+                     <GenreElement>
+                        <elementValue>Fiction</elementValue>
+                     </GenreElement>
+                  </elementList>
+
+               </Genre>
+            </componentList>
+         </ComplexSubject>
+      </subjectComplex>
+      <subjectComplex xmlns="http://www.loc.gov/mods/rdf/v1#">
+         <ComplexSubject xmlns="http://www.loc.gov/mads/rdf/v1#">
+            <rdfs:label>Whaling ships. Fiction. </rdfs:label>
+            <componentList rdf:parseType="Collection">
+
+               <Topic>
+                  <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Whaling ships</label>
+                  <elementList rdf:parseType="Collection">
+                     <TopicElement>
+                        <elementValue>Whaling ships</elementValue>
+                     </TopicElement>
+                  </elementList>
+
+               </Topic>
+               <Genre>
+                  <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Fiction</label>
+                  <elementList rdf:parseType="Collection">
+                     <GenreElement>
+                        <elementValue>Fiction</elementValue>
+                     </GenreElement>
+                  </elementList>
+
+               </Genre>
+            </componentList>
+         </ComplexSubject>
+      </subjectComplex>
+      <subjectComplex xmlns="http://www.loc.gov/mods/rdf/v1#">
+         <ComplexSubject xmlns="http://www.loc.gov/mads/rdf/v1#">
+            <rdfs:label>Ahab, Captain (Fictitious character). Fiction. </rdfs:label>
+            <componentList rdf:parseType="Collection">
+
+               <Topic>
+                  <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Ahab, Captain (Fictitious character)</label>
+                  <elementList rdf:parseType="Collection">
+                     <TopicElement>
+                        <elementValue>Ahab, Captain (Fictitious character)</elementValue>
+                     </TopicElement>
+                  </elementList>
+
+               </Topic>
+               <Genre>
+                  <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Fiction</label>
+                  <elementList rdf:parseType="Collection">
+                     <GenreElement>
+                        <elementValue>Fiction</elementValue>
+                     </GenreElement>
+                  </elementList>
+
+               </Genre>
+            </componentList>
+         </ComplexSubject>
+      </subjectComplex>
+      <!--
+
+***************************
+genre(s)
+***************************
+-->      <!--
+		
+*******genre
+-->      <modsrdf:genre>
+         <GenreForm xmlns="http://www.loc.gov/mads/rdf/v1#">
+            <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#GenreForm"/>
+            <rdfs:label>not fiction</rdfs:label>
+            <elementList rdf:parseType="Collection">
+               <GenreFormElement>
+                  <elementValue>not fiction</elementValue>
+               </GenreFormElement>
+            </elementList>
+         </GenreForm>
+      </modsrdf:genre>
+
+
+      <!--
+	
+*************************
+simple elements 
+*************************
+-->
+
+      <!--**********accessCondition-->
+      <accessCondition xmlns="http://www.loc.gov/mods/rdf/v1#">pd</accessCondition>
+
+      <!--
+	
+*************************
+other elements 
+*************************
+-->
+      <!--
+		
+*******classification
+-->
+      <class:lcc>PS2384 .M6 1851</class:lcc>
+      <!--
+		
+*******language
+-->
+      <LanguageOfResource xmlns="http://www.loc.gov/mods/rdf/v1#"
+                          rdf:resource="http://id.loc.gov/vocabulary/language#eng"/>
+      <!--
+		
+***************location
+-->      <locationOfResource xmlns="http://www.loc.gov/mods/rdf/v1#">
+         <Location>
+            <locationPhysicalLocation>DUL</locationPhysicalLocation>
+            <locationCopy>
+               <Copy>
+                  <locationCopyElectronicLocator>http://hdl.handle.net/2027/dul1.ark:/13960/t3kw6ns1s</locationCopyElectronicLocator>
+               </Copy>
+            </locationCopy>
+         </Location>
+      </locationOfResource>
+
+      <!--
+		
+*******place of origin
+-->
+      <placeOfOrigin xmlns="http://www.loc.gov/mods/rdf/v1#">
+         <Geographic xmlns="http://www.loc.gov/mads/rdf/v1#">
+            <label xmlns="http://www.w3.org/2000/01/rdf-schema#">nyu</label>
+            <elementList rdf:parseType="Collection">
+               <GeographicElement>
+                  <elementValue>http://id.loc.gov/vocabulary/countries/nyu</elementValue>
+               </GeographicElement>
+            </elementList>
+         </Geographic>
+      </placeOfOrigin>
+      <!--
+		
+*******place of origin
+-->
+      <placeOfOrigin xmlns="http://www.loc.gov/mods/rdf/v1#">
+         <Geographic xmlns="http://www.loc.gov/mads/rdf/v1#">
+            <label xmlns="http://www.w3.org/2000/01/rdf-schema#">New York</label>
+            <elementList rdf:parseType="Collection">
+               <GeographicElement>
+                  <elementValue>New York</elementValue>
+               </GeographicElement>
+            </elementList>
+         </Geographic>
+      </placeOfOrigin>
+      <!--
+		
+*******place of origin
+-->
+      <placeOfOrigin xmlns="http://www.loc.gov/mods/rdf/v1#">
+         <Geographic xmlns="http://www.loc.gov/mads/rdf/v1#">
+            <label xmlns="http://www.w3.org/2000/01/rdf-schema#">London</label>
+            <elementList rdf:parseType="Collection">
+               <GeographicElement>
+                  <elementValue>London</elementValue>
+               </GeographicElement>
+            </elementList>
+         </Geographic>
+      </placeOfOrigin>
+      <!--
+		
+*******  publisher
+-->
+      <publisher xmlns="http://www.loc.gov/mods/rdf/v1#">
+         <CorporateName xmlns="http://www.loc.gov/mads/rdf/v1#">
+            <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Harper &amp; Brothers</label>
+            <elementList rdf:parseType="Collection">
+               <FullNameElement>
+                  <elementValue>Harper &amp; Brothers</elementValue>
+               </FullNameElement>
+            </elementList>
+         </CorporateName>
+      </publisher>
+      <!--
+		
+*******  publisher
+-->
+      <publisher xmlns="http://www.loc.gov/mods/rdf/v1#">
+         <CorporateName xmlns="http://www.loc.gov/mads/rdf/v1#">
+            <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Richard Bentley</label>
+            <elementList rdf:parseType="Collection">
+               <FullNameElement>
+                  <elementValue>Richard Bentley</elementValue>
+               </FullNameElement>
+            </elementList>
+         </CorporateName>
+      </publisher>
+      <resourceDateIssued xmlns="http://www.loc.gov/mods/rdf/v1#" rdf:datatype="xsd:string">1851</resourceDateIssued>
+      <resourceDateIssued xmlns="http://www.loc.gov/mods/rdf/v1#" rdf:datatype="xsd:date">1851</resourceDateIssued>
+
+      <!--**********issuance-->
+      <issuance xmlns="http://www.loc.gov/mods/rdf/v1#">monographic</issuance>
+
+
+      <!--
+		
+*******statement of responsibility
+-->
+      <modsrdf:statementOfResponsibility>by Herman Melville.</modsrdf:statementOfResponsibility>
+      <!--
+		
+*******typed note 
+-->
+      <modsrdf:noteGroup>
+         <modsrdf:NoteGroup>
+            <modsrdf:noteGroupType/>
+            <modsrdf:noteGroupValue>Publisher's advertisements on final 6 p.</modsrdf:noteGroupValue>
+         </modsrdf:NoteGroup>
+      </modsrdf:noteGroup>
+
+      <!--
+		
+*******typed note 
+-->
+      <modsrdf:noteGroup>
+         <modsrdf:NoteGroup>
+            <modsrdf:noteGroupType/>
+            <modsrdf:noteGroupValue>First American edition.</modsrdf:noteGroupValue>
+         </modsrdf:NoteGroup>
+      </modsrdf:noteGroup>
+
+      <!--
+		
+*******note - no type
+-->
+      <modsrdf:note>Mode of access: Internet.</modsrdf:note>
+
+
+
+      <!--**********physicalForm-->
+      <physicalForm xmlns="http://www.loc.gov/mods/rdf/v1#">print</physicalForm>
+
+
+      <!--**********reformattingQuality-->
+      <reformattingQuality xmlns="http://www.loc.gov/mods/rdf/v1#">access</reformattingQuality>
+
+
+      <!--**********physicalForm-->
+      <physicalForm xmlns="http://www.loc.gov/mods/rdf/v1#">electronic resource</physicalForm>
+
+
+      <!--**********physicalForm-->
+      <physicalForm xmlns="http://www.loc.gov/mods/rdf/v1#">remote</physicalForm>
+
+
+      <!--**********physicalExtent-->
+      <physicalExtent xmlns="http://www.loc.gov/mods/rdf/v1#">xxiii, 634, [8] p. ; 20 cm.</physicalExtent>
+
+
+      <!--
+					
+				
+********************************  relatedItems follow *****************************************				
+				-->      <!--
+**************relatedItem****************
+-->      <relatedReferencer>
+<!--
+*******************************************************
+   Top level element
+*******************************************************
+-->         <modsrdf:ModsResource rdf:about="http://catalog.htrc.illinois.edu/bibent/001423722">
+<!--
+	
+*******************************************************
+  titles
+*******************************************************
+--><!--
+		
+*******  Principal Title
+-->            <titlePrincipal xmlns="http://www.loc.gov/mods/rdf/v1#">
+               <Title xmlns="http://www.loc.gov/mads/rdf/v1#">
+                  <label xmlns="http://www.w3.org/2000/01/rdf-schema#">BAL</label>
+                  <elementList rdf:parseType="Collection">
+
+                     <mainTitleElement>
+                        <elementValue>BAL</elementValue>
+                     </mainTitleElement>
+                  </elementList>
+               </Title>
+            </titlePrincipal>
+
+            <!--
+	
+*************************
+other elements 
+*************************
+-->
+            <!--
+		
+*******typed note 
+-->
+            <modsrdf:noteGroup>
+               <modsrdf:NoteGroup>
+                  <modsrdf:noteGroupType/>
+                  <modsrdf:noteGroupValue>13664</modsrdf:noteGroupValue>
+               </modsrdf:NoteGroup>
+            </modsrdf:noteGroup>
+
+            <!--
+**************************************************************
+-->         </modsrdf:ModsResource>
+      </relatedReferencer>
+
+      <!--
+**************************************************************
+-->   </modsrdf:ModsResource>
+</rdf:RDF>
